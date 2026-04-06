@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <ItemGroup>
+        <ProjectReference Include="../Application/TemplateName.Application/TemplateName.Application.csproj"/>
+        <ProjectReference Include="../Infrastructure/TemplateName.Infrastructure.Npgsql/TemplateName.Infrastructure.Npgsql.csproj"/>
+        <ProjectReference Include="../Presentation/TemplateName.Presentation.Rest/TemplateName.Presentation.Rest.csproj"/>
+        <ProjectReference Include="../Presentation/TemplateName.Presentation.Grpc/TemplateName.Presentation.Grpc.csproj"/>
+    </ItemGroup>
+
+</Project>

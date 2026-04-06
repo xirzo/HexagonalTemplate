@@ -1,0 +1,32 @@
+<Solution>
+    <Folder Name="/common/">
+        <File Path="Directory.Packages.props" />
+        <File Path="Directory.Build.props" />
+        <File Path=".editorconfig" />
+        <File Path=".gitignore" />
+    </Folder>
+    
+    <Folder Name="/src/">
+        <Project Path="src/TemplateName/TemplateName.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Application/">
+        <Project Path="src/Application/TemplateName.Application.Abstractions/TemplateName.Application.Abstractions.csproj" />
+        <Project Path="src/Application/TemplateName.Application.Contracts/TemplateName.Application.Contracts.csproj" />
+        <Project Path="src/Application/TemplateName.Application.Models/TemplateName.Application.Models.csproj" />
+        <Project Path="src/Application/TemplateName.Application/TemplateName.Application.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Infrastructure/">
+        <Project Path="src/Infrastructure/TemplateName.Infrastructure.Npgsql/TemplateName.Infrastructure.Npgsql.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Presentation/">
+        <Project Path="src/Presentation/TemplateName.Presentation.Grpc/TemplateName.Presentation.Grpc.csproj" />
+        <Project Path="src/Presentation/TemplateName.Presentation.Rest/TemplateName.Presentation.Rest.csproj" />
+    </Folder>
+    
+    <Folder Name="/tests/">
+        <Project Path="tests\TemplateName.Infrastructure.Npgsql.Tests\TemplateName.Infrastructure.Npgsql.Tests.csproj" />
+    </Folder>
+</Solution>

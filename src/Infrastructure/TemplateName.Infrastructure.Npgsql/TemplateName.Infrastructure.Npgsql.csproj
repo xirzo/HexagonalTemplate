@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <ItemGroup>
+        <PackageReference Include="Dapper"/>
+        <PackageReference Include="Npgsql"/>
+        <PackageReference Include="Npgsql.DependencyInjection"/>
+        <PackageReference Include="FluentMigrator"/>
+        <PackageReference Include="FluentMigrator.Runner"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\..\Application\TemplateName.Application.Abstractions\TemplateName.Application.Abstractions.csproj" />
+    </ItemGroup>
+    
+</Project>

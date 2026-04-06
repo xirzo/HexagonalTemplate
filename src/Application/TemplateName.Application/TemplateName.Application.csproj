@@ -1,0 +1,8 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <ProjectReference Include="..\TemplateName.Application.Contracts\TemplateName.Application.Contracts.csproj" />
+        <ProjectReference Include="..\TemplateName.Application.Abstractions\TemplateName.Application.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

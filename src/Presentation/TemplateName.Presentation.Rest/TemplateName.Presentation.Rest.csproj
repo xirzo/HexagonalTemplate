@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+    
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi"/>
+        <PackageReference Include="Scalar.AspNetCore"/>
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\..\Application\TemplateName.Application.Contracts\TemplateName.Application.Contracts.csproj"/>
+    </ItemGroup>
+
+</Project>
