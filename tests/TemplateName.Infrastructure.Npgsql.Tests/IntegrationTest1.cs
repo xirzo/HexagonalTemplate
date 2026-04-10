@@ -10,6 +10,7 @@ public class IntegrationTest1 : IAsyncLifetime
 
     public async Task InitializeAsync()
     {
+        Dapper.DefaultTypeMap.MatchNamesWithUnderscores = true;
         await _container.StartAsync();
 
         _serviceProvider = new ServiceCollection()
