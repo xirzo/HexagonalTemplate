@@ -7,25 +7,19 @@
 
     <ItemGroup>
         <PackageReference Include="coverlet.collector"/>
-        <PackageReference Include="FluentMigrator.Runner"/>
         <PackageReference Include="Microsoft.NET.Test.Sdk"/>
         <PackageReference Include="xunit"/>
         <PackageReference Include="xunit.runner.visualstudio"/>
         <PackageReference Include="NSubstitute"/>
-        <PackageReference Include="Testcontainers.PostgreSql"/>
-        <PackageReference Include="Testcontainers"/>
-        <PackageReference Include="Npgsql"/>
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="../../src/Infrastructure/TemplateName.Infrastructure.Npgsql/TemplateName.Infrastructure.Npgsql.csproj"/>
+        <ProjectReference Include="../../src/Application/TemplateName.Application/TemplateName.Application.csproj"/>
     </ItemGroup>
-
+    
     <ItemGroup>
         <Using Include="Xunit"/>
         <Using Include="NSubstitute"/>
-        <Using Include="Testcontainers"/>
-        <Using Include="Testcontainers.PostgreSql"/>
     </ItemGroup>
 
 </Project>

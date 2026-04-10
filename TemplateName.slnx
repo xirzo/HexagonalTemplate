@@ -27,6 +27,7 @@
     </Folder>
     
     <Folder Name="/tests/">
+        <Project Path="tests/TemplateName.Application.Tests/TemplateName.Application.Tests.csproj" />
         <Project Path="tests\TemplateName.Infrastructure.Npgsql.Tests\TemplateName.Infrastructure.Npgsql.Tests.csproj" />
     </Folder>
 </Solution>
